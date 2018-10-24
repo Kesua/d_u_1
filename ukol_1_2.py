@@ -1,6 +1,9 @@
 def zaklad_zobrazeni (mer,verze):
     "1 = lambert 2 = Marinovo 3 = Braunovo 4 = Mercatorovo"
     from math import pi, sin, radians, tan, log, cos
+    print ("Vitejte v apliakci pro vypocet pruseciku zemepisne site")
+    verz = input("Vyberte kuzelove zobrazeni (1,2,3,4) \n\n 1 = Lambertovo zobrazeni \n 2 = Marinovo zobrazeni \n 3 = Braunovo zobrazeni \n 4 = Mercatorovo zobrazeni")
+    verze = float(verz)
     x = []
     Z = []
     i = 0
